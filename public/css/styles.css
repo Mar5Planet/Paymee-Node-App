@@ -1,0 +1,199 @@
+
+body {
+  background-color: white;
+  font-family: "Jost";
+
+}
+
+.center {
+  text-align: center;
+}
+
+/* Heading */
+.navig {
+  padding: 0 18%;
+}
+.nav-title {
+  font-size: 2rem;
+  font-family: 'Pacifico', cursive;
+  color: #2a9df4;
+}
+.nav-li {
+  padding: 15px 12px;
+  font-size: 1.2rem;
+  opacity: 65%;
+}
+
+hr {
+  margin-top: 5px;
+}
+
+
+.show {
+  display: none;
+}
+
+/* Footer Styling */
+
+#footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;          /* Footer height */
+}
+
+.footer-ul {
+  list-style-type: none;
+  padding: 0;
+}
+.footer-cont {
+    padding: 5% 10% 0;
+    font-size: 0.9rem;
+}
+
+.footer-cont h6 {
+  font-weight: 900;
+}
+
+.footer-cont li {
+  opacity: 60%;
+}
+
+.footer-cont button {
+  font-size: 0.9rem;
+  width: 120%
+
+}
+
+.mobile {
+  display: none;
+}
+
+/* Home page */
+.big-btn {
+  width: 70%;
+}
+
+.main-img {
+  bottom: 90px;
+  width: 80%;
+}
+
+.centered {
+    padding: 200px 0 150px;
+    text-align: center;
+}
+
+/* Register Page */
+
+.g-btn  {
+  text-align: center;
+}
+a {
+  maring: auto;
+}
+.inner {
+  display: table;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.outer {
+  width:100%
+}
+
+.reg-form {
+  margin-bottom: 10%;
+}
+
+/* Login Page */
+
+.signin-card {
+  width:402px;
+}
+
+/* paymee main page */
+
+.main-container {
+  padding: 5% 15% 5% 4%;
+}
+.main-content {
+  padding: 2%;
+  border: 1px solid #eeeeee;
+  border-radius: 1%;
+}
+.shadow {
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         3px 3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
+.paymee-imgs {
+  width: 80px;
+  border-radius: 100%;
+}
+
+.btn-1 {
+  border-radius: 7%;
+  margin: 5px;
+}
+.pay {
+  font-family:sans-serif;
+  opacity: 90%;
+  font-size: 1.2rem;
+}
+.money {
+  color: #2a9df4;
+}
+.my-name {
+  clear: left;
+  display: inline-block;
+  margin-top: 12%;
+  margin-bottom: 10%;
+  font-size: 0.8rem;
+}
+.comment-input {
+  margin: 10px 0;
+  width: 50%;
+  display: inline-block;
+}
+.comment-heart {
+  margin: 0 20px;
+  display: inline-block;
+}
+
+.comment-heart:hover {
+  color: red;
+}
+.mar-img {
+  border-radius: 100%;
+  width: 40%;
+  padding: 5%;
+  float: left;
+
+}
+
+/* Mobile */
+@media (max-width: 1300px) {
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+  text-align: center;
+}
+.mobile {
+  display: inline-block;
+  margin: 10px;
+}
+.mobile-btn {
+  display: block;
+  padding: 20px 20px
+}
+.mobile button {
+  width: 40%;
+  margin: 10px;
+  margin-left: 20px;
+}

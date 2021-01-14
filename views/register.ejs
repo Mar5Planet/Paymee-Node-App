@@ -1,0 +1,55 @@
+<%- include('partials/header') %>
+<div class="container mt-5">
+  <h1 class="center">Create your account</h1>
+
+
+  <div class="outer">
+    <div class="inner">
+      <a class="btn btn-social btn-google" href="/auth/google" role="button">
+        <i class="fab fa-google"></i>
+        Sign Up with Google
+      </a>
+    </div>
+  </div>
+
+
+  <div class="row reg-form">
+
+    <div class="col-lg"></div>
+    <div class="col-lg">
+      <div class="card">
+        <div class="card-body">
+
+          <!-- Makes POST request to /register route -->
+          <form action="/register" method="POST">
+            <div class="form-group">
+              <label for="fname">First Name</label>
+              <input type="text" class="form-control" placeholder="Mar" name="fname">
+            </div>
+            <div class="form-group">
+              <label for="lname">Last Name</label>
+              <input type="text" class="form-control" placeholder="Martian" name="lname">
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" placeholder="some@one.com" name="username">
+            </div>
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input type="password" class="form-control" placeholder="********" name="password">
+            </div>
+
+
+            <button type="submit" class="btn btn-dark">Register</button>
+          </form>
+
+        </div>
+      </div>
+    </div>
+    <div class="col-lg"></div>
+
+
+  </div>
+</div>
+
+<%- include('partials/footer') %>
